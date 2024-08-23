@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    System.out.print("Digite uma sequencia de numeros: ");
+    String input = scanner.nextLine();
+    String reversedImput = new StringBuilder(input).reverse().toString();
+    System.out.println("Sequencia invertida: " + reversedImput);
+  }
+}
